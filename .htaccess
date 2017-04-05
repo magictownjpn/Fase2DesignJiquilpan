@@ -1,0 +1,13 @@
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([a-z]+)\/?$ $1.html [NC]
+</IfModule>
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:muzaby
+ErrorDocument 404 /404.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE muzaby:ERRORPAGEID
