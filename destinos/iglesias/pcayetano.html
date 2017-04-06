@@ -5,6 +5,21 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="../../css/estilosD.css">
         <link rel="icon" type="image/png" href="../../favicon.png">
+        <!--Elementos para la galeria-->
+        <script src="js/jquery.flexslider.js"></script>
+        <link rel="stylesheet" href="../../css/flexslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="../../js/jquery.flexslider.js"></script>
+	   <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    touch: true,
+    	            pauseOnAction: false,
+    	            pauseOnHover: false,
+                });
+            });
+        </script>
+<!--Fin galeria-->
         <title>Parroquia de San Cayetano</title>
     </head>
     <body>
@@ -35,6 +50,7 @@
                     <article>
                     <article>
                         <h2>&nbsp; Parroquia San Cayetano &nbsp;</h2>
+                         <h3>&nbsp; Fiesta: 7 de Agosto &nbsp;</h3>
                     </article>
                     <article>
                         <p>&emsp; </p>
@@ -44,7 +60,40 @@
             
         </main>
         
-        
+        <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="galeria/gcayetano/1.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 1</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gcayetano/2.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 2</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gcayetano/3.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 3</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gcayetano/4.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 4</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gcayetano/5.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 4</p>
+                </section>
+            </li>
+        </ul>
+    </div>
         
       <footer>
             <div class="contenedor">

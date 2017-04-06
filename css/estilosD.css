@@ -50,6 +50,9 @@ header img {
 #banner h2 {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
+#banner h3 {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
 
 header .contenedor {
     display: table;
@@ -59,13 +62,17 @@ header .contenedor {
     background: rgb(180,10,110);
 }
 
+#monumentos h3 {
+    background: rgb(11,10,110);
+}
+
 footer .contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 25px;
     background: rgb(180,10,110);
-    margins: 0px;
+    margin: 0px;
     width: 100%;
     min-height: 120px;
 }

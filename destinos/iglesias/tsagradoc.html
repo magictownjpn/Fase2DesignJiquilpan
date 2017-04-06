@@ -5,6 +5,21 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="../../css/estilosD.css">
         <link rel="icon" type="image/png" href="../../favicon.png">
+        <!--Elementos para la galeria-->
+        <script src="js/jquery.flexslider.js"></script>
+        <link rel="stylesheet" href="../../css/flexslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="../../js/jquery.flexslider.js"></script>
+	   <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    touch: true,
+    	            pauseOnAction: false,
+    	            pauseOnHover: false,
+                });
+            });
+        </script>
+<!--Fin galeria-->
         <title>Templo Sagrado Corazón</title>
     </head>
     <body>
@@ -36,16 +51,49 @@
                     </article>
                     <article>
                         <h2>&nbsp; Templo del Sagrado Corazón &nbsp;</h2>
+                         <h3>&nbsp; Fiesta: 23 de Junio &nbsp;</h3>
                     </article>
                     <article>
                         <p>&emsp; Una majestuosa obra arquitectónica de finales de siglo XIX y principios del XX. En su interior, tras el altar, se encuentra un mural de gran interés histórico pintado por Roberto Cuevas del Río, el gran muralista, a finales de los años 30, y que representa un mapa de la república Mexicana, en 1821, cuando ésta tuvo a su máxima extensión territorial.</p>
                     </article>
                 </div>
-            </section>
-            
+            </section>  
         </main>
         
-        
+        <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="galeria/gsagrado/1.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 1</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gsagrado/2.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 2</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gsagrado/3.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 3</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gsagrado/4.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 4</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gsagrado/5.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 4</p>
+                </section>
+            </li>
+        </ul>
+    </div>
         
          <footer>
             <div class="contenedor">

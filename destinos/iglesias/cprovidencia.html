@@ -5,6 +5,21 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="../../css/estilosD.css">
         <link rel="icon" type="image/png" href="../../favicon.png">
+        <!--Elementos para la galeria-->
+        <script src="js/jquery.flexslider.js"></script>
+        <link rel="stylesheet" href="../../css/flexslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="../../js/jquery.flexslider.js"></script>
+	   <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    touch: true,
+    	            pauseOnAction: false,
+    	            pauseOnHover: false,
+                });
+            });
+        </script>
+<!--Fin galeria-->
         <title>Capilla de La Divina Providencia</title>
     </head>
     <body>
@@ -36,6 +51,7 @@
                     </article>
                     <article>
                         <h2>&nbsp; Capilla de La Divina Providencia &nbsp;</h2>
+                         <h3>&nbsp; Fiesta: 19 de Noviembre &nbsp;</h3>
                     </article>
                     <article>
                         <p>&emsp; Esta capilla es la más moderna y reciente de todas, pues se comenzó a construir a mediados de 1996, en la colonia Cuahutémoc y se terminó en mayo del siguiente año.</p>
@@ -43,11 +59,43 @@
                         <p>&emsp; Esta capilla está construida sencillamente en estilo modernista con sus muros y ventanas muy blancos en estilo colonial.</p>
                     </article>
                 </div>
-            </section>
-            
+            </section> 
         </main>
         
-        
+        <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="galeria/gprovidencia/1.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 1</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gprovidencia/2.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 2</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gprovidencia/3.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 3</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gprovidencia/4.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 4</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gprovidencia/5.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 4</p>
+                </section>
+            </li>
+        </ul>
+    </div>
         
        <footer>
             <div class="contenedor">

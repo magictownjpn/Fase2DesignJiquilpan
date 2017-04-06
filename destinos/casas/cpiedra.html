@@ -5,6 +5,21 @@
         <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
         <link rel="stylesheet" href="../../css/estilosD.css">
         <link rel="icon" type="image/png" href="../../favicon.png">
+        <!--Elementos para la galeria-->
+        <script src="js/jquery.flexslider.js"></script>
+        <link rel="stylesheet" href="../../css/flexslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+        <script src="../../js/jquery.flexslider.js"></script>
+	   <script type="text/javascript" charset="utf-8">
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    touch: true,
+    	            pauseOnAction: false,
+    	            pauseOnHover: false,
+                });
+            });
+        </script>
+<!--Fin galeria-->
         <title>Casita de Piedra</title>
     </head>
     <body>
@@ -42,11 +57,43 @@
                         <p>&emsp; Con una arquitectura rústica luciendo acabados en piedra laja y sus amplios corredores frontales, este inmueble, hace algunas décadas, fue escenario para la filmación de la película Los amantes del Señor de la Noche, donde La Casita de Piedra se puede apreciar durante las actuaciones de Emilio El Indio Fernández, Irma Serrano e Isela Vega, por mencionar algunos.</p>
                     </article>
                 </div>
-            </section>
-            
+            </section> 
         </main>
         
-        
+        <div class="flexslider">
+        <ul class="slides">
+            <li>
+                <img src="galeria/gpiedra/1.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 1</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gpiedra/2.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 2</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gpiedra/3.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 3</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gpiedra/4.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 4</p>
+                </section>
+            </li>
+            <li>
+                <img src="galeria/gpiedra/5.jpg" alt="">
+                <section class="flex-caption">
+                    <p>Des 4</p>
+                </section>
+            </li>
+        </ul>
+    </div>
         
          <footer>
             <div class="contenedor">

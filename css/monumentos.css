@@ -17,6 +17,16 @@
     font-size: 20px;
     color: #fff;
     position: absolute;
+    margin: -16% 5%;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    border-radius: 00px 20px 20px 0px;
+    width: auto;
+}
+
+#monumentos h3 {
+    font-size: 20px;
+    color: #fff;
+    position: absolute;
     margin: -12% 5%;
     text-shadow: black 0.1em 0.1em 0.2em;
     border-radius: 00px 20px 20px 0px;
@@ -38,13 +48,13 @@
 
 @media (max-width: 468px)
 {
-    #monumentos h2 {
+    #monumentos h2,h3 {
         margin: -16% 5%;
     }
 }
 
 @media (min-width:688px){
-    #monumentos h2 {
+    #monumentos h2,h3 {
         font-size: 30px;
         margin-left: 10%;
     }
@@ -63,6 +73,9 @@
     
     #monumentos h2 {
         margin: -10% 10%;
+    }
+    #monumentos h3 {
+        margin: -7% 10%;
     }
     
 }
