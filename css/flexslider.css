@@ -24,6 +24,7 @@
 
 .slides img{
 	width: 100%;
+    height: 100%;
 }
 
 .slides,
@@ -106,7 +107,7 @@
 .flex-caption p{
 	font-family: Lato;
 	position: absolute;
-	top: 50%;
+	top: 77%;
 	text-align: center;
 	width: 100%;
 	font-size: 45px;
