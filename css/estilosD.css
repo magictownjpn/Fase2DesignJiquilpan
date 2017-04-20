@@ -58,6 +58,33 @@ header .contenedor {
     display: table;
 }
 
+
+/* -- -- -- -- -- Boton para galerias -- -- -- - */
+.bgallery label {
+    float:right;
+    margin-top: 30%;
+    margin-right: 3%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(0,200,40);
+    background: rgba(0,200,40,0.5);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bgallery {
+    width: 100%;
+    position: fixed;
+    display: block;
+    z-index: 1;
+    padding: 0;
+}
+
+.bgallery label:hover {
+    background: rgb(0,200,40);
+}
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - */
+
 #monumentos h2 {
     background: rgb(180,10,110);
 }

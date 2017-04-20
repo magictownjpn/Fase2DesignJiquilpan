@@ -20,14 +20,13 @@ body {
 header {
     width: 100%;
     height: 53px;
-    background: rgb(90,70,200);
+    background: rgb(4,92,244);
     color: #fff;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 100;
 }
-
 
 .contenedor {
     width: 98%;
@@ -55,13 +54,40 @@ header .contenedor {
     display: table;
 }
 
+/* -- -- -- -- -- Boton para galerias -- -- -- - */
+.bgallery label {
+    float:right;
+    margin-top: 30%;
+    margin-right: 3%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(200,50,0);
+    background: rgba(200,50,0,0.5);
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bgallery {
+    width: 100%;
+    position: fixed;
+    display: block;
+    z-index: 1;
+    padding: 0;
+}
+
+.bgallery label:hover {
+    background: rgb(200,50,0);
+}
+/* -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - */
+
+
 /*color de los circulos*/
 .lugares img {
-     border: 7px solid rgb(90,70,200);
+     border: 7px solid rgb(4,92,244);
 }
 
 #monumentos h2 {
-    background: rgb(90,70,200);
+    background: rgb(4,92,244);
 }
 
 .festividades {
@@ -72,14 +98,12 @@ header .contenedor {
 }
 
 
-
-
 footer .contenedor {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 25px;
-    background: rgb(90,70,200);
+    background: rgb(4,92,244);
     margin: 0px;
     width: 100%;
     min-height: 120px;
