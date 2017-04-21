@@ -1,24 +1,22 @@
-
-#cards {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-
+body {
+    background: gray;
+    max-resolution: 0;
+    padding: 0;
 }
 
 .card {
-    width: 280px;
-    height: 238px;
-    background: #802E96;
-    color: #fff;
+    width: 300px;
+    height: 280px;
+    background: #0a0;
     overflow: hidden;
-    padding: 0;
-    margin: 20px;
+    font-family: arial;
+    color: #fff;
+    margin: 200px auto;
     perspective: 50em;
     box-sizing: border-box;
     transition: .5s ease;
     position: relative;
-    box-shadow: 0px 0px 5px black;
+    border: 1px solid rgb(255,255,255);
 }
 
 .card img {
@@ -39,7 +37,6 @@
     opacity: 0;
     background: rgb(52,52,52);
     transform: rotateX(-90deg);
-    
     transform-origin: 50% 0%;
     transition: .5s;
 }
@@ -56,18 +53,18 @@
     height: 50px;
     text-decoration: none;
     list-style: none;
-    margin: 0px;
-    padding: 10px;
-    height: 47px;
+    padding: 15px;
+    height: 25px;
 }
 
 .imgmenu a:hover {
-    background: rgba(196, 24, 255, 0.3);
+    background: rgba(0,0,0,0.5);
 }
 
 .card:hover img {
     transform: rotateX(90deg);
-    opacity: 0;   
+    opacity: 0;
+    
 }
 
 .card:hover .imgmenu
